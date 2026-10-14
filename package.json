@@ -1,0 +1,18 @@
+{
+  "name": "istapetit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ISTA'Pétit - commande de repas OFPPT",
+  "scripts": {
+    "android:init": "cap add android",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.3",
+    "@capacitor/core": "8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3"
+  }
+}
